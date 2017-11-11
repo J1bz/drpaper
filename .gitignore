@@ -1,0 +1,5 @@
+*.pyc
+drpaper/settings.py
+drpaper/wsgi.py
+*/migrations/*
+*/__pycache__/*
