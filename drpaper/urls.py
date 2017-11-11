@@ -17,7 +17,11 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+from generator import views as gen_views
+
 urlpatterns = [
+    url(r'^$', gen_views.home, name='home'),
+
     url(r'^admin/', admin.site.urls),
 ]
 
